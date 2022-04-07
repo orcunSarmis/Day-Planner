@@ -7,8 +7,22 @@ var today = moment();// This line stores moment Datetime data in today variable.
 // These lines display formated datetime on the page.
 $("#currentDay").text(today.format("dddd, MMMM Do"));
 
+
+$(document).ready(function(){
+    $(".saveBtn").click(function(){
+       var str = $(".description").val();
+        // console.log(str);
+        localStorage.setItem("description", "str");
+    });
+});
+
+
+
+
+
+
 // 
-saveBtn.on("click", function () {
-    $("description").val("");
-    // console.log("works");
-})
+// saveBtn.on("click", function () {
+//     $("description").val("");
+//     console.log("works");
+// })

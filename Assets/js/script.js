@@ -10,16 +10,17 @@ $("#currentDay").text(today.format("dddd, MMMM Do"));
 
 $(document).ready(function(){
     $(".saveBtn").click(function(){
-       var str = $(".description").val();
-        // console.log(str);
+       var str = $(this).siblings(".description").val();
+       var hour = $(this).parent().attr("id")
         localStorage.setItem("description", "str");
+        localStorage.setItem(hour, str);
     });
 });
 
 
 
 
-
+// $('#hour-9 .description').val(localStorage.getItem('hour-9'));******** to get 
 
 // 
 // saveBtn.on("click", function () {

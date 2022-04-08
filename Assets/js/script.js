@@ -14,6 +14,10 @@ $(document).ready(function(){
        var hour = $(this).parent().attr("id") // and added with id.
         localStorage.setItem("description", "str"); // Set inputs in local storage.
         localStorage.setItem(hour, str);
+
+        // $(".time-block").each(function(index)) {
+        //     index +
+        // }
     });
 });
 

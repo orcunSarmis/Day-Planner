@@ -7,6 +7,8 @@ var today = moment();// This line stores moment Datetime data in today variable.
 // These lines display formated datetime on the page.
 $("#currentDay").text(today.format("dddd, MMMM Do"));
 
+var currentTime = new Date().getHours();
+
 // These store user inputs in the local storage.
 $(document).ready(function(){
     $(".saveBtn").click(function(){
@@ -19,7 +21,11 @@ $(document).ready(function(){
     
     // These lines will give colors in the fields.
     $(".time-block").each(function(index) {
-        console.log("element", this);
+        console.log("element", this); // This line gets tim block element
+    
+        console.log($(this).attr("id").split("-")[1]); // This line split the hour from #id.
+        
+        
     });
 
 });
@@ -29,3 +35,4 @@ $(document).ready(function(){
 // time-block.classList.remove("future");
 // time-block.classList.add("past");
 // var currentTime = new Date().getTime();
+// $(selector).attr(attribute)

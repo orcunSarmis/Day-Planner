@@ -15,19 +15,17 @@ $(document).ready(function(){
         localStorage.setItem("description", "str"); // Set inputs in local storage.
         localStorage.setItem(hour, str);
 
-        // $(".time-block").each(function(index)) {
-        //     index +
-        // }
     });
+    
+    // These lines will give colors in the fields.
+    $(".time-block").each(function(index) {
+        console.log("element", this);
+    });
+
 });
 
+// var currentTime = new Date().getTime();
 
-
-
-// $('#hour-9 .description').val(localStorage.getItem('hour-9'));******** to get 
-
-// 
-// saveBtn.on("click", function () {
-//     $("description").val("");
-//     console.log("works");
-// })
+// time-block.classList.remove("future");
+// time-block.classList.add("past");
+// var currentTime = new Date().getTime();

@@ -23,14 +23,13 @@ $(document).ready(function(){
     $(".time-block").each(function(index) {
         console.log("element", this); // This line gets tim block element
     
-        console.log($(this).attr("id").split("-")[1]); // This line split the hour from #id.
-
-        if (currentTime > this) {
-            time-block.classList.add("past");
-        }else if (currentTime == this){
-            time-block.classList.add("present");
+        var notedHour = parseInt($(this).attr("id").split("-")[1]); // This line split the hour from #id.
+        if (currentTime < notedHour) {
+            $(this).addClass("past");
+        }else if (currentTime == notedHour){
+            $(this).addClass("present");
         }else {
-            time-block.classList.add("future");
+            $(this).addClass("future");
         }
     });
 
@@ -43,3 +42,5 @@ $(document).ready(function(){
 // var currentTime = new Date().getTime();
 // $(selector).attr(attribute)
 // 9 < currentTime 
+// var notedHour = parseInt($(this).attr("id").split("-")[1]);
+// var notedHour = $(this).attr("id").split("-")[1]

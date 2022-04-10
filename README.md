@@ -28,22 +28,23 @@ HTML, CSS, jQuery
 The day planner is designed to enable users to create a schedule. The planner contains timeblocks for standard business hours which are colour coded to indicate whether an event is in the past, present or future. 
 
 When opening the URL, the current day is displayed:
-
-[Screenshot of the landing page]
+![Screenshot (59)](https://user-images.githubusercontent.com/79064464/162616210-f05e31a4-5160-4b7a-ab4d-70286d371dac.png)
 
 The planner displays timeblocks for standard business hours:
-
-[Screenshot of the timeblocks] 
-
+  
 Each timeblock is colour coded to indicate whether it is in the past, present or future:
 
-[Screenshot of colour coded timeblocks]
+![Screenshot (60)](https://user-images.githubusercontent.com/79064464/162616229-96ea7a82-bd4d-4ea8-8eca-ae7d224b0252.png)
+
 
 When clicking on a timblock I can create an event:
 
-[Screenshot of event creation on a timeblock + save button]
+![Screenshot (62)](https://user-images.githubusercontent.com/79064464/162616299-18caf6b1-b191-47db-a969-d6317e11dfb8.png)
+
 
 The text for a saved event is saved in local storage and when hitting the refresh button, the events persists. 
+  ![Screenshot (63)](https://user-images.githubusercontent.com/79064464/162616357-c4a3d04a-d42e-400a-964a-a50710643336.png)
+
 
 ## License
 

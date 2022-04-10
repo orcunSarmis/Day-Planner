@@ -1,9 +1,11 @@
+/* Biy display elements. */
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
   }
   
+  /* Textarea display elements. */
   textarea {
     background: transparent;
     border: none;
@@ -13,6 +15,7 @@ body {
     padding: 10px;
   }
   
+  /* Header Jumbotron styleing elements. */
   .jumbotron {
     text-align: center;
     background-color: transparent;
@@ -21,27 +24,32 @@ body {
     border-bottom: 10px solid black;
   }
   
+  /* Description display. */
   .description {
     white-space: pre-wrap;
   }
 
+  /* Time blocks display elements. */
   .time-block {
     text-align: center;
     border-radius: 15px;
   }
   
+  /* Rows stylings. */
   .row {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;
   }
   
+  /* Office hours styling elements. */
   .hour {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
   }
   
+  /* These lines gives colors to timeblocks in the office hours. */
   .past {
     background-color: #d3d3d3!important;
     color: white;
@@ -57,6 +65,7 @@ body {
     color: white;
   }
   
+  /* Save button styling. */
   .saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;

@@ -46,12 +46,3 @@ window.addEventListener("load", function(){
     })
 });
 
-// var currentTime = new Date().getTime();
-
-// time-block.classList.remove("future");
-// time-block.classList.add("past");
-// var currentTime = new Date().getTime();
-// $(selector).attr(attribute)
-// 9 < currentTime 
-// var notedHour = parseInt($(this).attr("id").split("-")[1]);
-// var notedHour = $(this).attr("id").split("-")[1]

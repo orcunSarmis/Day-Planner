@@ -17,7 +17,7 @@ Creation of a simple calendar application that allows a user to save events for 
 
 Open the URL in your web browser.
 
-https://orcunsarmis.github.io/PortfolioOS/
+https://orcunsarmis.github.io/Day-Planner/
 
 ## Built With
 
